@@ -29,9 +29,16 @@ install:
 stop:
 	$(DC) down
 
-.PHONY: exec ## Run bash in the php container
+.PHONY: exec ## Run bash in the fast api container
 exec:
 	$(EXEC) /bin/bash
+
+.PHONY: restart ## Restart the container
+restart:
+	$(DC) down
+	$(DC) build
+	$(DC) up -d
+
 
 .PHONY: all ## Install all & start the project
 all: install exec

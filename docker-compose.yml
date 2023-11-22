@@ -8,3 +8,6 @@ services:
       dockerfile: ./Dockerfile
     ports:
       - 8000:80
+    volumes:
+      - ./app:/code/app
+      
