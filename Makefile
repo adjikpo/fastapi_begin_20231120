@@ -3,7 +3,7 @@
  
 
 DC=docker compose
-
+EXEC=$(DC) exec fastapi
 .DEFAULT_GOAL := help
 
 .PHONY: help ## Generate list of targets with descriptions
