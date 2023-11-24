@@ -5,9 +5,9 @@ Carsharing is an API using FASTAPI.
 ----------------
 
 ## Contents
--   [Requirements](#-requirements)
--   [Configuration](#-configuration)
--   [Start](#-building-your-app)
+-   [Requirements](#requirements)
+-   [Configuration](#configuration)
+-   [Start](#start)
 
 ## Requirements
 - 🛠Make
