@@ -3,3 +3,4 @@
 certs
 **/site-packages
 data/
+__pycache__

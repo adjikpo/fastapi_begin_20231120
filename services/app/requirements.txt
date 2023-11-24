@@ -1,6 +1,5 @@
 fastapi[all]==0.89.0
 uvicorn[standard]==0.20.0
-sqlalchemy
-pytest
-pytest-asyncio
+sqlmodel
+passlib
 
