@@ -9,6 +9,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - run: echo " ${{github.workspace}}"
+      - run: echo " ${{github.repository}}"
+
       - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v4
