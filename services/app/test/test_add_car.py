@@ -1,7 +1,7 @@
 from unittest.mock import Mock
 from fastapi.testclient import TestClient
 
-from services.app.main import app
+from main import app
 from routers.cars import add_car
 from schemas import CarInput, User, Car
 
